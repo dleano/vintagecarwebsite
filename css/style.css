@@ -1,0 +1,17 @@
+ .container{
+  margin: 0 auto;
+  /* max-width: 1000px; */
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.navbar-brand{
+font-size: 24pt;
+font-weight: 600px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+
+.enquirystyle{
+  background-color: lightblue;
+}
