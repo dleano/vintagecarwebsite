@@ -1,10 +1,10 @@
- .container{
-  margin: 0 auto;
-  /* max-width: 1000px; */
+ container{
+  margin-top: 5px; 
   display: flex;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  border: radius 10%; 
 }
+
 .navbar-brand{
 font-size: 24pt;
 font-weight: 600px;
@@ -12,6 +12,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: italic;
 }
 
-.enquirystyle{
-  background-color: lightblue;
+.enquiries{
+  background-color: rgb(128, 209, 236);
+}
+
+.contact {
+  margin-left: 2.5cm;
+}
+
+.cars{
+  border-radius: 10%;
+  border-color: black;
 }
